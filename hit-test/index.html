@@ -35,7 +35,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     <header>
       <details open>
         <summary>Piletina sa kinoom</summary>
-        <model-viewer style="height: 300px; width: 300px; margin: 0 auto;" src="https://cors-anywhere.herokuapp.com/https://www.dropbox.com/s/rsu7ewt2aw2u6vk/Piletina%20sa%20kinoom%20-%20meshmixer%20-%20obj%20-%20final.glb?raw=1" ios-src="../Piletina sa kinoom - meshmixer - obj - final.usdz" alt="3D model piletina sa kinoom" auto-rotate="" camera-controls="" data-js-focus-visible="" ar-status="not-presenting" ar-scale="auto"></model-viewer>
+        <model-viewer style="height: 300px; width: 300px; margin: 0 auto;" src="../Piletina sa kinoom - meshmixer - obj - final_boja.glb" ios-src="../Piletina sa kinoom - meshmixer - obj - final.usdz" alt="3D model piletina sa kinoom" auto-rotate="" camera-controls="" data-js-focus-visible="" ar-status="not-presenting" ar-scale="auto"></model-viewer>
       </details>
     </header>
     <script type="module">
@@ -64,7 +64,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       arObject.visible = false;
       scene.addNode(arObject);
 
-      let flower = new Gltf2Node({url: 'https://www.dropbox.com/s/rsu7ewt2aw2u6vk/Piletina%20sa%20kinoom%20-%20meshmixer%20-%20obj%20-%20final.glb?raw=1'});
+      let flower = new Gltf2Node({url: '../Piletina sa kinoom - meshmixer - obj - final_boja.glb'});
       arObject.addNode(flower);
 
       let reticle = new Gltf2Node({url: '../reticle.gltf'});
